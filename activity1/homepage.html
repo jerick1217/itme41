@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Home Page</title>
+<!--Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="code/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    
+  <!-- Custom styles for this template -->
+  <link href="css/sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+      
+    <div class="sidebar bg-danger border-right " id="sidebar-wrapper">
+       
+      <div class="sidebar-heading fa fa-fw fa-search"> <input type="text" placeholder="Search"> </div>
+      <div class="list-group list-group-flush">
+          
+          <a href="#"> <i class="list-group-item list-group-item-action bg-danger text-light fa fa-fw fa-calendar" >Exhinition & Events</i></a>
+          
+          <a href="#" class="list-group-item list-group-item-action bg-danger text-light fa fa-fw fa-home">Artist & Art Work</a>
+         <a href="#" class="list-group-item list-group-item-action bg-danger text-light fa fa-fw fa-cube">Collection</a>
+         <a href="#" class="list-group-item list-group-item-action bg-danger text-light fa fa-fw fa-ticket">Plan Your Visit</a>
+        <a href="#" class="list-group-item list-group-item-action bg-danger text-light fa fa-fw fa-account">Become a Member</a>
+          <a href="#" class="list-group-item list-group-item-action bg-danger text-light fa fa-fw fa-gift">Shop</a>
+      </div>
+            </ul>
+    </div>
+         
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <a  id="menu-toggle">THE <br> ART <br> MUSEUM</a>
+
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+          <img src="image/painting.png" class="img-fluid "  style="width:100%;">
+        <p class="mt-4">EXHIBITION</p>
+          <h2 class="mt-4">MASTERS OLD AND NEW</h2>
+          <h5>APRIL 15 - SEPTEMBER 20 </h5>
+           <p class="mt-4">FLOOR 5</p>
+            <button type="submit" class="btn  btn-lg btn-danger " >Log in</button>
+      </div>
+    </div>
+   
+    <!-- /#page-content-wrapper -->
+
+
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="code/jquery/jquery.min.js"></script>
+  <script src="code/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
